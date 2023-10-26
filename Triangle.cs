@@ -25,6 +25,18 @@ namespace LB_1 {
             this._c = c;
         }
 
+        public Triangle(float a, float b, float c) {
+            this._a = a;
+            this._b = b;
+            this._c = c;
+        }
+
+        public Triangle() {
+            this._a = 5;
+            this._b = 5;
+            this._c = 5;
+        }
+
         private float P2() {
             return P() / 2;
         }
